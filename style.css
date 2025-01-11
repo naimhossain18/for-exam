@@ -97,3 +97,97 @@
     border-radius: 10px;
     border: none;
   }
+  /* -------------------------vision-future style----------------------------------- */
+.vision {
+  margin: 80px 160px 0px 160px;
+}
+.vision h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.vision p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  margin: 15px 0 32px 0px;
+}
+.vision h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0 px 0px 0px;
+}
+.card-box {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.card-a {
+  background-color: #81b4fc;
+  border-radius: 20px;
+  border: none;
+  padding: 30px;
+}
+.card-b {
+  border-radius: 20px;
+  border: none;
+  background-color: #c6e4d6;
+  padding: 30px;
+}
+.card-c {
+  border-radius: 20px;
+  border: none;
+  padding: 30px;
+  background-color: #f7ebcf;
+}
+.card-a-btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #5490f5;
+  border-radius:8px;
+  border: none;
+  /* height: 41px ; */
+  /* width: 122px; */
+  padding: 11px 20px;
+}
+.card-b-btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border-radius: 08px;
+  border: none;
+  padding: 11px 20px;
+  background-color: #09a15c;
+}
+
+.card-c-btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border-radius: 08px;
+  border: none;
+  padding: 11px 20px;
+  background-color: #ffc239;
+}
+
+/* ----------------------------dr-yunus-style here------------------- */
+
+.dr-yunus {
+  margin: 32px 160px 0px 160px;
+  background-color: white;
+  padding: 20px;
+  /* background-image: url(./assets/quote-bg.png); */
+  /* background-repeat: no-repeat; */
+  border-radius: 20px;
+}
+
+.dr-quate {
+  background-image: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+.dr-yunus h3 {
+  font: size 20px;
+  font-weight: 600;
+}
