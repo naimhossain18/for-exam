@@ -8,8 +8,13 @@
 
 /* -------------------------------shared-style------------------- */
 body {
-  max-width: 1600px;
+  /* max-width: 1600px; */
+  margin: auto;
   background-color: #f1f1f3;
+}
+main{
+  max-width: 1280px;
+  margin: auto;
 }
 
 .green-c {
@@ -39,11 +44,11 @@ body {
 /*-----------------------------header style--------------------*/
 
 header {
-  padding: 24px 160px;
+  padding: 24px 0px;
   /* margin: 0px 160px 0 160px;  */
   display: flex;
   justify-content: space-between;
-  /* width: 1600px; */
+  width: 1280px;
   margin: auto;
 }
 header h3 {
@@ -70,8 +75,6 @@ header h3 {
   height: 480px;
   /* width: 1280px; */
   border-radius: 10px;
-  margin-left: 160px;
-  margin-right: 160px;
   padding: 50px 50px 50px 50px;
   align-items: center;
   /* margin: auto; */
@@ -100,7 +103,7 @@ header h3 {
 /*  --------------------------pillar box------------------*/
 
 .pillars {
-  margin: 80px 160px 0px 160px;
+  margin: 80px 0px 0px 0px;
 }
 .pillars h2 {
   font-size: 40px;
@@ -127,7 +130,7 @@ header h3 {
 
 /* -------------------------vision-future style----------------------------------- */
 .vision {
-  margin: 80px 160px 0px 160px;
+  margin: 80px 0px 0px 0px;
 }
 .vision h1 {
   font-size: 40px;
@@ -202,7 +205,7 @@ header h3 {
 /* ----------------------------dr-yunus-style here------------------- */
 
 .dr-yunus {
-  margin: 32px 160px 0px 160px;
+  margin: 32px 0px 0px 0px;
   background-color: white;
   padding: 20px;
   /* background-image: url(./assets/quote-bg.png); */
@@ -225,7 +228,7 @@ header h3 {
 /* ----------------------------------opinion matters---------------------- */
 
 .opinion{
-  margin:80px 160px 0px 160px ;
+  margin:80px 0px 0px 0px ;
 
 }
 table{
@@ -268,7 +271,7 @@ table td{
 /* --------------------------------Recent-News-style-------------------------------------- */
 
 .news {
-  margin: 80px 160px 0 160px;
+  margin: 80px 0px 0 0px;
 }
 .news h1 {
   font-size: 40px;
@@ -326,7 +329,7 @@ table td{
 /* ------------------------- donate bd-style---------------------------------- */
 
 .donate-bd {
-  margin: 80px 160px 0px 160px;
+  margin: 80px 0px 0px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -382,7 +385,7 @@ table td{
 /* ----------------------------- newsletter-style---------------------  */
 
 .subscribe {
-  margin: 80px 160px 0px 160px;
+  margin: 80px 0px 0px 0px;
   padding: 80px 100px;
   /* height: 395px; */
   border-radius: 20px;
@@ -443,6 +446,12 @@ footer h3 {
 }
 .footer-link {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   height: 24px;
+  gap: 20px;
+}
+.custom-hr{
+  width: 100%;
+  height: 1px;
+  background-color: #D9D9D9;
 }
