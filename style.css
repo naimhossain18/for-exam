@@ -67,12 +67,13 @@ header h3 {
   display: flex;
   justify-content: space-between;
   background-color: #c6e4d6;
-  height: 560px;
+  height: 480px;
   /* width: 1280px; */
   border-radius: 10px;
   margin-left: 160px;
   margin-right: 160px;
-  padding: 100px 50px 50px 50px;
+  padding: 50px 50px 50px 50px;
+  align-items: center;
   /* margin: auto; */
 }
 .banner h3 {
@@ -218,6 +219,51 @@ header h3 {
   font: size 20px;
   font-weight: 600;
 }
+
+
+
+/* ----------------------------------opinion matters---------------------- */
+
+.opinion{
+  margin:80px 160px 0px 160px ;
+
+}
+table{
+  padding: 32px;
+  background-color: white;
+  border-radius: 20px;
+  width:1280px;
+}
+table tr{
+  height: 92px;
+  border: 2px solid #D9D9D9 ;
+
+
+}
+table th{
+  background-color: #c6e4d6;
+text-align: left;
+padding: 20px ;
+}
+.tbl-des{
+  text-align: left;
+}
+table td{
+     font-size: 16px;
+     font-weight: 600;
+    text-align: center;
+
+}
+.dropdown{
+  font-size: 16px;
+  font-weight: 500px;
+  padding: 24px 24px;
+  background-color: #c6e4d6;
+ align-content: center;
+
+
+}
+
 
 /* --------------------------------Recent-News-style-------------------------------------- */
 
