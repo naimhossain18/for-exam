@@ -95,6 +95,35 @@ header h3 {
   border-radius: 10px;
   border: none;
 }
+
+/*  --------------------------pillar box------------------*/
+
+.pillars {
+  margin: 80px 160px 0px 160px;
+}
+.pillars h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+}
+.pillar-container h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e0e0e;
+}
+.p-box p {
+  color: #757575;
+}
+.pillar-container {
+  display: flex;
+  gap: 20px;
+}
+.p-box {
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px;
+}
+
 /* -------------------------vision-future style----------------------------------- */
 .vision {
   margin: 80px 160px 0px 160px;
