@@ -1,0 +1,99 @@
+/*----------------------------font-style---------------------*/
+
+.fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  /* -------------------------------shared-style------------------- */
+  body {
+    max-width: 1600px;
+    background-color: #f1f1f3;
+  }
+  
+  .green-c {
+    color: #006a50;
+  }
+  .dark-3 {
+    color: #757575;
+  }
+  .backg-c{
+     background-color:#c6e4d6;
+  }
+  .para {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+  }
+  .green-btn{
+      font-size: 18px;
+      font-weight: 600;
+      color: white;
+      padding: 13px 26px;
+      background-color: #006A50;
+      border-radius: 08px;
+      border: none;
+      margin: 32px 0px 0px 0px;
+  
+  
+  }
+  /*-----------------------------header style--------------------*/
+  
+  header {
+    padding: 24px 160px;
+    /* margin: 0px 160px 0 160px;  */
+    display: flex;
+    justify-content: space-between;
+    /* width: 1600px; */
+    margin: auto;
+  }
+  header h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  .nav-btn {
+    font-size: 18px;
+    font-weight: 600px;
+    color: #006a50;
+    width: 116px;
+    height: 52px;
+    border: 1px solid #006a50;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  /* --------------------------------------banner-style------------------------------------- */
+  .banner-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c6e4d6;
+    height: 560px;
+    /* width: 1280px; */
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 100px 50px 50px 50px;
+    /* margin: auto; */
+  }
+  .banner h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #757575;
+  }
+  .banner h1 {
+    font-size: 56px;
+    font-weight: bold;
+  }
+  .banner-btn {
+    font-size: 18px;
+    font-weight: bold;
+    /* width: 270px; */
+    /* height: 56px; */
+    padding: 17px 34px;
+    color: white;
+    background-color: #006a50;
+    border-radius: 10px;
+    border: none;
+  }
