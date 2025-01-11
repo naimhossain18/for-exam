@@ -190,25 +190,25 @@ header h3 {
   font-weight: 600;
 }
 
-    /* --------------------------------Recent-News-style-------------------------------------- */
+/* --------------------------------Recent-News-style-------------------------------------- */
 
-.news{
-  margin:80px 160px 0 160px ;
+.news {
+  margin: 80px 160px 0 160px;
 }
-.news h1{
+.news h1 {
   font-size: 40px;
   font-weight: bold;
-  color: #0E0E0E;
+  color: #0e0e0e;
   margin: 0px;
   padding: 0px;
 }
-.news-title{
+.news-title {
   font-size: 32px;
   font-weight: bold;
-  color: #0E0E0E;
+  color: #0e0e0e;
   margin: 0px 0px 10px 0px;
 }
-.news-card-a{
+.news-card-a {
   display: flex;
   flex-direction: row-reverse;
   gap: 32px;
@@ -218,28 +218,27 @@ header h3 {
 }
 .img-satelite img {
   border-radius: 20px;
-
 }
-.news-date{
+.news-date {
   font-size: 16;
   font-weight: 400;
   color: #757575;
- 
+
   margin: 0px;
   padding: 10px 0px;
 }
 
 /* ---------------------------------news-card-b------------------------ */
-.news-card-b{
+.news-card-b {
   display: flex;
   flex-direction: row;
   gap: 32px;
   padding: 30px;
   background-color: white;
   border-radius: 20px;
-  margin:24px 0px 0px 0px;
+  margin: 24px 0px 0px 0px;
 }
-.news-card-c{
+.news-card-c {
   display: flex;
   flex-direction: row-reverse;
   gap: 32px;
@@ -249,32 +248,30 @@ header h3 {
   margin: 24px 0px 0px 0px;
 }
 
-  /* ------------------------- donate bd-style---------------------------------- */
+/* ------------------------- donate bd-style---------------------------------- */
 
-.donate-bd{
-  margin:80px 160px 0px 160px ;
+.donate-bd {
+  margin: 80px 160px 0px 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 32px;
-  padding:0px 105px ;
+  padding: 0px 105px;
 }
-.donate-title{
+.donate-title {
   font-size: 40px;
   font-weight: bold;
   margin: 0px;
-
 }
 
-.donat-sub-title{
+.donat-sub-title {
   margin: 0px;
 }
-.amount-card-box{
+.amount-card-box {
   display: flex;
   gap: 24px;
-
 }
-.amount-card{
+.amount-card {
   font-size: 40px;
   font-weight: bold;
   background-color: white;
@@ -282,69 +279,95 @@ header h3 {
   border-radius: 10px;
   padding: 40px;
 }
-.amount-card-d{
+.amount-card-d {
   font-size: 40px;
   font-weight: bold;
-  background-color:#C6E4D6;
+  background-color: #c6e4d6;
   border: none;
   border-radius: 10px;
-  padding: 40px;}
-
-.other-amount input{
-  height: 64px;
-  border: none;
-  width:1032px;
-  text-align: center;
-
+  padding: 40px;
 }
 
-.donate-btn{ font-size: 18px;
-font-weight: 600;
-color: white;
-padding: 13px 26px;
-background-color: #006A50;
-border-radius: 08px;
-border: none;
+.other-amount input {
+  height: 64px;
+  border: none;
+  width: 1032px;
+  text-align: center;
+}
+
+.donate-btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 13px 26px;
+  background-color: #006a50;
+  border-radius: 08px;
+  border: none;
 }
 /* ----------------------------- newsletter-style---------------------  */
 
-.subscribe{
-margin: 80px 160px 0px 160px;
-padding: 80px 100px;
-/* height: 395px; */
-border-radius: 20px;
-display: flex;
-flex-direction: column;
-align-items: center;
+.subscribe {
+  margin: 80px 160px 0px 160px;
+  padding: 80px 100px;
+  /* height: 395px; */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.subscribe h3{
-font-size: 40px;
-font-weight: bold;
-color: #0E0E0E;
+.subscribe h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
 }
 
-.email-btn{
-display: flex;
+.email-btn {
+  display: flex;
 }
-.email-btn input{
-padding: 18px 40px;
-border: none;
-/* height:px; */
-width: 600px;
-margin-right: 0px;
-border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;
+.email-btn input {
+  padding: 18px 40px;
+  border: none;
+  /* height:px; */
+  width: 600px;
+  margin-right: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
-.email-btn button{
-font-size: 18px;
-font-weight: 600;
-padding: 17px 34px;
-color: white;
-background-color: #006A50;
-border: none;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
-margin: 0px;
-height: 55px;
+.email-btn button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px;
+  color: white;
+  background-color: #006a50;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 0px;
+  height: 55px;
+}
 
+/* -------------------------footer section----------------- */
+
+footer {
+  background-color: white;
+  padding: 50px 160px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 32px;
+}
+/* .footer-content{} */
+footer h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin: 0px;
+  height: 38px;
+}
+.footer-link {
+  display: flex;
+  justify-content: space-evenly;
+  height: 24px;
 }
